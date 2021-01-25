@@ -1,0 +1,19 @@
+@CHARSET "UTF-8";
+
+.om-dialog .om-dialog-titlebar {
+	height:20px;
+}
+.om-dialog .om-dialog-content {
+	padding:0;
+	padding-bottom:25px;
+	overflow:hidden;
+}
+.om-dialog .om-dialog-title {
+	float:none;
+}
+.om-panel-body{
+	padding-top:3px;
+}
+.om-buttonbar {
+	background: url("apusic/images/dialog/dialog-title-bg.png");
+}

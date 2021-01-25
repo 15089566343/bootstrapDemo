@@ -1,0 +1,40 @@
+@charset "utf-8";
+/**********************************************************皮肤设置************************************************************************/
+/**灰色**/
+.grey-skin table thead tr th{
+    background-color: #ebe9e9;;
+}
+.grey-skin .op>button{
+    background-color: #ebe9e9;
+    border: 1px solid #e8e7e7;
+}
+.grey-skin .op>button:hover,.grey-skin .op>button:active,.grey-skin .op>button:focus{
+    background-color: #b4b3b3;
+    border: 1px solid #a1a0a0;
+    outline: none;
+    color:#fff;
+}
+/**浅蓝**/
+.lblue-skin table thead tr th{
+    background-color: #7FC2EE;;color: #fff;
+}
+.lblue-skin .op>button{
+    background-color: #7FC2EE;
+    border: 1px solid #6bbaee;
+    color: #fff;
+}
+.lblue-skin .op>button:hover,.lblue-skin .op>button:active,.lblue-skin .op>button:focus{
+    background-color: #078fe8;
+    border: 1px solid #057ecd;
+    outline: none;
+    color:#fff;
+}
+/**********************************************************皮肤设置************************************************************************/
+
+.table-div{    padding: 5px 10px;
+    background-color: #fff;}
+.op{margin-bottom: 5px;}
+.op button{
+    letter-spacing: 1px;
+    padding: 4px 10px;
+}

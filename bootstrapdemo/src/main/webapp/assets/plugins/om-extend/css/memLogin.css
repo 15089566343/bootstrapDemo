@@ -1,0 +1,119 @@
+body {
+	font-size: 14px;
+	font-family: Arial;
+	line-height: 1.5em;
+	background-color: #E5FFF7
+}
+
+#num {
+	display:none;
+	color: #FF9800;
+	margin-left:15px;
+	margin-top:10px;
+}
+
+#userLabel,#passLabel {
+	font-family: "ÐÂËÎÌå";
+	font-size: 9pt;
+	color: #777777;
+	position: relative;
+	top: 10px;
+	left: 20px;
+}
+
+#loginBody {
+	background-color: #FFFFFF;
+	border: 2px #FFE5E5 inset;
+	border-style: solid;
+	position: relative;
+	left: 500px;
+	top: 50px;
+	width: 300px;
+	height: 250px
+}
+
+.showUser {
+	background-color: #FFFFE0;
+	border: 4px #E6DB55 inset;
+	border-style: solid;
+	position: relative;
+	left: 500px;
+	top: 20px;
+	width: 300px;
+	height: 50px
+}
+
+.userPassLabel {
+	background-color: #FBFBFB;
+	font-size: 22pt;
+	color: #FF9800;
+	border: 1px #E5E5E5 inset;
+	border-style: solid;
+	position: relative;
+	top: 50px;
+	height: 40px;
+	width: 250px;
+}
+
+.subLogin {
+	background-color: #FFFFFF;
+	font-family: "Ó×Ô²";
+	font-size: 16pt;
+	color: #FF9800;
+	border: 2px #FF9800 inset;
+	border-style: solid;
+	position: relative;
+	left: 200px;
+	top: 70px;
+	height: 30px;
+	width: 80px;
+	cursor:pointer;
+}
+
+.subLogin:hover {
+	background-color: #2683AE;
+	color: #FFFFFF;
+	border: 3px #E5E5E5;
+	border-style: solid;
+}
+
+.regSec {
+	font-size: 9pt;
+	font-color: #B7F9F9;
+	position: relative;
+	top: 100px;
+	left: 10px
+}
+
+.middle {
+	color: #FF9800;
+	position: relative;
+	top: 12px;
+}
+
+.regSec a {
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: red;
+}
+
+#loginHead {
+	background-color: #FF9800;
+	position: relative;
+	height: 30px;
+}
+
+#loginHead a {
+	text-decoration: none;
+	position: relative;
+	top: 3px;
+	color: #FFFFFF;
+}
+
+#loginHead a:hover {
+	text-decoration: underline;
+	color: #FF0000;
+}

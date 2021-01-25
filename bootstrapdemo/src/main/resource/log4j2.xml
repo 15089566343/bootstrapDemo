@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- status=debug 可以查看log4j的装配过程 -->
+<configuration status="off" monitorInterval="1800">
+	<appenders>
+		<!-- 定义控制台输出 -->
+		<Console name="Console" target="SYSTEM_OUT" follow="true">
+			<!--<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />-->
+			<PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss.SSS} %-5level %logger{36} - %msg%n" />
+		</Console>
+	</appenders>
+	<loggers>
+		<logger name="org.springframework" level="info" />
+		<logger name="org.hibernate" level="info" />
+		<logger name="com" level="info"/>
+		<!--屏蔽dubbo日志-->
+		<!-- Root Logger -->
+		<root level="info">
+			<appender-ref ref="Console" />
+		</root>
+	</loggers>
+</configuration>

@@ -1,0 +1,278 @@
+label {
+    font-weight: 500;
+}
+
+/*栅格化*/
+.span1, .span1-5, .span2, .span2-5, .span3, .span4, .span5, .span6, .span7, .span8, .span9, .span10,  .span10-5,.span11, .span12 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+}
+
+.span12 {
+    width: 100%;
+    width: 99% \0;
+}
+
+.span11 {
+    width: 91.66666667%;
+    width: 90.66666667% \0;
+}
+
+.span10-5 {
+    width: 87.33333333%;
+    width: 86.33333333% \0;
+}
+
+.span10 {
+    width: 83.33333333%;
+    width: 82.33333333% \0;
+}
+
+.span9 {
+    width: 75%;
+    width: 74% \0;
+}
+
+.span8 {
+    width: 66.66666667%;
+    width: 65.66666667% \0;
+}
+
+.span7 {
+    width: 58.33333333%;
+    width: 57.33333333% \0;
+}
+
+.span6 {
+    width: 50%;
+    width: 49% \0;
+}
+
+.span5 {
+    width: 41.66666667%;
+    width: 40% \0;
+}
+
+.span4 {
+    width: 33.33333333%;
+    width: 32% \0;
+}
+
+.span3 {
+    width: 25%;
+    width: 24% \0;
+}
+
+.span2-5 {
+    width: 20.83333333%;
+    width: 19.83333333% \0;
+}
+
+.span2 {
+    width: 16.66666667%;
+    width: 15.6666666% \0;
+}
+
+.span1-5 {
+    width: 12.33333333%;
+    width: 11.33333333% \0;
+}
+
+.span1 {
+    width: 8.33333333%;
+    width: 8.33333333% \0;
+}
+
+/*通用样式*/
+.p0 {
+    padding: 0;
+}
+
+.mt15 {
+    margin-top: 15px !important;
+}
+
+.mb10 {
+    margin-bottom: 10px !important;
+}
+
+.mb20 {
+    margin-bottom: 20px !important;
+}
+
+.mr0 {
+    margin-right: 0 !important;
+}
+
+.mr5 {
+    margin-right: 5px !important;
+}
+
+.mr15 {
+    margin-right: 15px !important;
+}
+
+.mr30 {
+    margin-right: 30px !important;
+}
+
+.pt50 {
+    padding-top: 48px;
+}
+
+.ml_20 {
+    margin-left: 20px;
+}
+
+.mlr5 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+}
+
+.nmb {
+    margin-bottom: 0px !important;
+}
+
+.layout { /*限制宽度1190px，左右居中*/
+    width: 1190px;
+    margin: 0 auto;
+}
+
+/*盒子box样式*/
+.box {
+    position: relative;
+    background: #ffffff;
+    border: 1px solid #d2d6de;
+    margin-bottom: 20px;
+    width: 100%;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box-header:before,
+.box-body:before,
+.box-footer:before,
+.box-header:after,
+.box-body:after,
+.box-footer:after {
+    content: " ";
+    display: table;
+}
+
+.box-header:after,
+.box-body:after,
+.box-footer:after {
+    clear: both;
+}
+
+.box-header {
+    color: #444;
+    display: block;
+    padding: 10px;
+    position: relative;
+}
+
+.box-header.with-border {
+    border-bottom: 1px solid #f4f4f4;
+}
+
+.box-header .box-title {
+    display: inline-block;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;
+    color: #4d4d4d;
+    position: relative;
+}
+
+.box-header .box-title.dec_1 {
+    border-left: 4px solid #0081cc;
+    padding-left: 6px;
+}
+
+.box-body {
+    padding: 15px;
+    background: #fff;
+}
+
+/*校验样式*/
+/*-----校验错误样式*/
+input.error, input.error:focus, input.error:active, .btn-group.error .btn {
+    border-color: #b50808;
+}
+
+label.error {
+    position: absolute;
+    background-color: #f2dede;
+    z-index: 3;
+    top: -36px;
+    padding: 5px 10px;
+    color: #a94442;
+    font-size: 12px;
+    border-radius: 3px;
+}
+
+label.error:before {
+    content: "";
+    position: absolute;
+    border-top: 5px solid #f2dede;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    bottom: -5px;
+}
+
+.form_date label.error, .bootstrap-select label.error {
+    left: 0;
+}
+
+/*表格样式*/
+/*-----表格列表样式，多用于显示详细信息*/
+.table-list {
+    width: 100%;
+}
+
+.table-list td {
+    border: 1px solid #ddd;
+    padding: 6px;
+    min-width: 100px;
+}
+
+.table-list .field {
+    background-color: #edf5fb;
+    text-align: right;
+    width: 160px;
+    font-weight: bold;
+}
+
+/*表单样式*/
+/*-----搜索框表单样式*/
+.form-search {
+    padding: 20px;
+    background-color: #f5f5f5;
+    margin-bottom: 20px;
+}
+
+/*面包屑重写*/
+
+.bread-title{
+    padding: 8px 12px;
+    font-size: 18px;
+    font-family: "微软雅黑", Helvetica, Arial, sans-serif;
+    color: #0181cc;
+    height: 39px;
+    line-height: 39px;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #0181cc;
+}
+
+.breadcrumb {
+    padding: 8px 15px;
+    margin-bottom: 20px;
+    list-style: none;
+    background-color: #ffffff;
+    border-radius: 0;
+}
+
+
