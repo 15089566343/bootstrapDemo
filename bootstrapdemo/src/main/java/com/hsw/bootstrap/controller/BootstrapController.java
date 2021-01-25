@@ -75,7 +75,7 @@ public class BootstrapController {
                 file1.setCreateTime(DateUtil.date().toString());
                 String fileId = UUID.randomUUID().toString().replaceAll("-", "");
                 file1.setSingleId(fileId);
-                file1.setImgBase64(org.apache.commons.codec.binary.Base64.encodeBase64String(base));
+                file1.setImgBase64(base64);
                 bootstrapDao.saveFile(file1);
                 jsonMap.put("flag", true);
                 jsonMap.put("fileId", fileId);
