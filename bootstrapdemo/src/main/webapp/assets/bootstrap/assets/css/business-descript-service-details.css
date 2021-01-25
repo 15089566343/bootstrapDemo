@@ -1,0 +1,124 @@
+.content_box{
+	border:1px solid #eaeaea;
+	padding:0 50px;
+	position: relative;
+	margin-top: 15px;
+}
+.outBox_view .hd{
+	margin-bottom: 20px;
+}
+.tools_block{
+	margin-top:5px;
+	margin-bottom: 10px;
+}
+.tools_block .col-xs-2 p{
+	line-height: 30px;
+	color:#506ec1;
+}
+.head_tool{
+	position: absolute;
+	right: 40px;
+	top:10px;
+}
+.head_tool>a{
+	width: 120px;
+	height:36px;
+	line-height: 34px;
+	font-size: 14px;
+	text-align: center;
+	color:#fff;
+	font-weight: bold;
+	padding-left: 5px;
+}
+.head_tool .appointment{
+	background-image: url(../images/yuyue.png);
+}
+.head_tool .bid{
+	background-image: url(../images/shenban.png);
+}
+.head_tool .collection{
+	background-image: url(../images/shoucang.png);
+}
+.cell_block{
+	padding:0 15px;
+
+}
+.cell_block table{
+	margin-top: 15px;
+}
+.outBox_view .hd{
+	position: relative;
+	left: 0;
+	right: 0;
+	z-index: 2;
+	background: #e6edfd;
+	border:none;
+
+}
+.outBox_view .hd ul li{
+	font-size: 16px;
+	height: 50px;
+	line-height: 50px;
+	color:#666;
+	position: relative;
+}
+.outBox_view .hd ul li:before{
+	content: "|";
+	position: absolute;
+	left:0;
+	color:#999;
+}
+.outBox_view .hd ul li:first-child:before{
+	content: none;
+}
+.outBox_view .hd ul li.on{
+	color:#3258a3;
+	background: #e6edfd;
+	border-bottom: 4px solid #fd7150;
+}
+.outBox_view .hd.fixed {
+	width: 1200px;
+	padding:0 50px;
+    position: fixed;
+    left: 50%;
+    margin-left: -600px;
+    right: 0;
+    top: 0;
+}
+.basic_block{
+	border-bottom: 1px solid #eaeaea;
+}
+.basic_block .table{
+	width: auto;
+	margin-bottom: 15px;
+}
+.basic_block .table td:nth-child(even){
+	padding-right: 50px;
+}
+.basic_block .table tr,.basic_block .table td{
+	border:none;
+	padding:0;
+}
+
+.handle_block .table td{
+	border:1px solid #3258a3;
+	text-align: center;
+	vertical-align: middle;
+	text-align: center;
+}
+.setup .info_text{
+	text-indent: 30px;
+}
+.cell_block .cell_head_view{
+	margin:0 -15px 20px -15px;
+}
+.info_text{
+	line-height: 1.25;
+	margin-bottom: 20px;
+}
+
+ol li{
+	list-style-type: decimal ;
+	margin-left: 15px;
+	line-height: 1.8
+}

@@ -1,0 +1,96 @@
+/* iCheck plugin Square skin, custom
+----------------------------------- */
+.icheckbox_square_gd,
+.iradio_square_gd {
+    display: inline-block;
+    *display: inline;
+    vertical-align: middle;
+    margin: 0;
+    padding: 0;
+    /* width: 20px;
+    height: 20px; */
+     width: 17px;
+    height: 17px;
+    background: url("square_gd.png") no-repeat;
+    border: none;
+    cursor: pointer;
+}
+/* .icheckbox_square_gd {
+    background-position: -2px 0;
+}
+    .icheckbox_square_gd.hover {
+        background-position: -26px 0;
+    }
+    .icheckbox_square_gd.checked {
+        background-position: -50px 0;
+    }
+    .icheckbox_square_gd.disabled {
+        background-position: -74px 0;
+        cursor: default;
+    }
+    .icheckbox_square_gd.checked.disabled {
+        background-position: -98px 0;
+    }
+
+.iradio_square_gd {
+    background-position: -122px 0;
+}
+    .iradio_square_gd.hover {
+        background-position: -146px 0;
+    }
+    .iradio_square_gd.checked {
+        background-position: -170px 0;
+    }
+    .iradio_square_gd.disabled {
+        background-position: -194px 0;
+        cursor: default;
+    }
+    .iradio_square_gd.checked.disabled {
+        background-position: -218px 0;
+    } */
+.icheckbox_square_gd {
+    background-position: -19px -4px;
+}
+    .icheckbox_square_gd.hover {
+        background-position: -40px -4px;
+    }
+    .icheckbox_square_gd.checked {
+        background-position: -60px -4px;
+    }
+    .icheckbox_square_gd.disabled {
+        background-position: -81px -4px;
+        cursor: default;
+    }
+    .icheckbox_square_gd.checked.disabled {
+        background-position: -101px -4px;
+  }
+
+.iradio_square_gd {
+    background-position: -121px -4px;
+}
+.iradio_square_gd.hover {
+    background-position: -142px -4px;
+}
+.iradio_square_gd.checked {
+    background-position: -162px -4px;
+}
+.iradio_square_gd.disabled {
+    background-position: -183px -4px;
+    cursor: default;
+}
+.iradio_square_gd.checked.disabled {
+    background-position: -204px -4px;
+} 
+
+/* Retina support */
+@media only screen and (-webkit-min-device-pixel-ratio: 1.5),
+       only screen and (-moz-min-device-pixel-ratio: 1.5),
+       only screen and (-o-min-device-pixel-ratio: 3/2),
+       only screen and (min-device-pixel-ratio: 1.5) {
+    .icheckbox_square_gd,
+    .iradio_square_gd {
+        background-image: url("square_gd@2x.png");
+        -webkit-background-size: 240px 24px;
+        background-size: 240px 24px;
+    }
+}
