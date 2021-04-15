@@ -12,6 +12,7 @@
     <import resource="classpath:spring-datasource.xml"/>
     <import resource="classpath:spring-mvc.xml"/>
     <import resource="spring-oracle.xml" />
+    <import resource="quartz-config.xml" />
 <!--    <import resource="spring-dubbo-aspect.xml" />-->
 <!--    <import resource="quartz-config.xml" />-->
 

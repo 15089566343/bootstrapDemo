@@ -1,8 +1,13 @@
 package com.hsw.bootstrap.controller;
 
+import com.hsw.util.PdfUtils;
+import com.lowagie.text.*;
+import com.lowagie.text.pdf.PdfWriter;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
+import javax.imageio.ImageIO;
+import java.awt.image.BufferedImage;
 import java.io.*;
 
 /**
@@ -19,10 +24,32 @@ public class test {
 
 
     public static void main(String[] args) throws Exception {
-        String fileStr = getFileStr("F:\\win1.jpg");
-        System.out.println("fileStr ===" + fileStr);
-        System.out.println(generateFile(fileStr, targetFilePath));
-        System.out.println("end");
+//        String fileStr = getFileStr("F:\\win1.jpg");
+//        System.out.println("fileStr ===" + fileStr);
+//        PdfUtils.convert(fileStr, targetFilePath);
+////        System.out.println(generateFile(fileStr, targetFilePath));
+//        System.out.println("end");
+
+        try {
+            String imagePath = "D:\\爬虫\\481662\\100361.jpg";
+            String pdfPath = "F:\\test.pdf";
+            BufferedImage img = ImageIO.read(new File(imagePath));
+            FileOutputStream fos = new FileOutputStream(pdfPath);
+            Document doc = new Document(null, 0, 0, 0, 0);
+            doc.setPageSize(new Rectangle(img.getWidth(), img.getHeight()));
+            Image image = Image.getInstance(imagePath);
+            PdfWriter.getInstance(doc, fos);
+            doc.open();
+            doc.add(image);
+            doc.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        } catch (BadElementException e) {
+            e.printStackTrace();
+        } catch (DocumentException e) {
+            e.printStackTrace();
+        }
+
     }
 
 
